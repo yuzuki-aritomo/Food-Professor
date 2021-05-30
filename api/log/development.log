@@ -1,0 +1,41 @@
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE DATABASE `api_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE DATABASE `api_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.21.0.1 at 2021-05-30 19:10:06 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.5ms | Allocations: 479)
+Completed 200 OK in 110ms (Views: 51.3ms | ActiveRecord: 0.0ms | Allocations: 4122)
+
+
+Started GET "/" for 172.21.0.1 at 2021-05-30 19:12:05 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.7ms | Allocations: 196)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 759)
+
+
+Started GET "/favicon.ico" for 172.21.0.1 at 2021-05-30 19:12:05 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 172.23.0.1 at 2021-05-30 19:25:11 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.3ms | Allocations: 479)
+Completed 200 OK in 126ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 4123)
+
+
+Started GET "/" for 172.23.0.1 at 2021-05-30 19:38:09 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.4ms | Allocations: 316)
+Completed 200 OK in 69ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 2443)
+
+
+Started GET "/" for 172.23.0.1 at 2021-05-30 20:11:00 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/ruby/2.6.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.2ms | Allocations: 190)
+Completed 200 OK in 23ms (Views: 20.7ms | Allocations: 746)
+
+
