@@ -29,3 +29,5 @@
 /api/.env
 
 /api/vendor
+
+/.env
